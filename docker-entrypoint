@@ -1,0 +1,7 @@
+#!/bin/bash
+
+while sleep 60; do
+  echo "working" > /dev/null
+done
+
+exec "$@"

@@ -1,0 +1,16 @@
+{
+  "name": "deadbyback/underhood_test",
+  "description": "A trademark scrapper application as test task for Underhood",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "symfony/dotenv": "^5.4"
+  }
+}
